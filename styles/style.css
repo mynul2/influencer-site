@@ -1,0 +1,65 @@
+body {
+    font-family: quicksand;
+    margin: 0;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+section {
+    margin: 0;
+}
+
+.featured {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    
+}   
+
+
+
+
+
+.featured-text a {
+    background-color: #E22E6D;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: white;
+}
+
+#featured-heading {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+#featured-paragraph {
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+
+.popular-collection {
+    margin-top: 150px;
+}
+
+.popular-collection h2 {
+    text-align: center;
+}
+
+.product-list {
+
+    display: grid;
+    
+    grid-template-columns: repeat(3,1fr);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+   
+}
+
